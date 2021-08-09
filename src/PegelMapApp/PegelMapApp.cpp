@@ -43,7 +43,7 @@ void PegelMapApp::componentComplete()
     // Add a WMS layer
     addWmsLayer("https://maps.dwd.de/geoserver/dwd/wms", {"Gewaesser", "RBSN_RR"});
     addWmsLayer("http://www.pegelonline.wsv.de/webservices/gis/wms/aktuell/mnwmhw", {"PegelonlineWMS"});
-    //addWmsLayer("https://maps.dwd.de/geoserver/dwd/wms", {"Niederschlagsradar"});
+    addWmsLayer("https://maps.dwd.de/geoserver/dwd/wms", {"Niederschlagsradar"});
     //addWmsLayer("https://maps.dwd.de/geoserver/dwd/wms", {"RBSN_RR"});
     /*
     QDateTime currentDateTime = QDateTime::currentDateTimeUtc();
