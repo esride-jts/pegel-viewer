@@ -27,7 +27,11 @@ equals(QT_MAJOR_VERSION, 5) {
 	}
 }
 
+<<<<<<< HEAD
 ARCGIS_RUNTIME_VERSION = 100.11
+=======
+ARCGIS_RUNTIME_VERSION = 100.11.2
+>>>>>>> 2148db2fba3837c0bee4e62ace8ece0566caaf7b
 include($$PWD/arcgisruntime.pri)
 
 HEADERS += \
